@@ -1,3 +1,16 @@
+
+/**
+ * Have the function permutationStep(num) take the num parameter being passed
+ * and return the next number greater than num using the same digits. For
+ * example: if num is 123 return 132, if it's 12453 return 12534. If a number
+ * has no greater permutations, return -1 (ie. 999).
+ *
+ * https://www.coderbyte.com/results/bhanson:Permutation%20Step:JavaScript
+ *
+ * @param  {number} num
+ * @return {number}
+ */
+
 function PermutationStep(num) {
   var arr = num.toString().split('');
   var usedChars = [];
